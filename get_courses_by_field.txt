@@ -1,2 +1,7 @@
 curl --location 'http://127.0.0.1/webservice/rest/server.php' --form 'wstoken="33018989fc4fba6ed3ed8eb4c16d67ec"' --form 'moodlews
 restformat="json"' --form 'attemptid="3"' --form 'page="0"' --form 'wsfunction="mod_quiz_get_attempt_data"'
+
+
+--response 
+{"courses":[{"id":2,"fullname":"Hyperaldosteronism","displayname":"Hyperaldosteronism","shortname":"Hyperaldosteronism","categoryid":1,"categoryname":"Nephrology","sortorder":10001,"summary":"","summaryformat":1,"summaryfiles":[],"overviewfiles":[],"showactivitydates":true,"showcompletionconditions":true,"contacts":[{"id":2,"fullname":"Admin User"}],"enrollmentmethods":["manual"],"idnumber":"1","format":"topics","showgrades":1,"newsitems":5,"startdate":1679529600,"enddate":1711065600,"maxbytes":0,"showreports":0,"visible":1,"groupmode":0,"groupmodeforce":0,"defaultgroupingid":0,"enablecompletion":1,"completionnotify":0,"lang":"","theme":"","marker":0,"legacyfiles":0,"calendartype":"","timecreated":1679493111,"timemodified":1679496505,"requested":0,"cacherev":1679496505,"filters":[{"filter":"displayh5p","localstate":0,"inheritedstate":1},{"filter":"activitynames","localstate":0,"inheritedstate":1},{"filter":"mathjaxloader","localstate":0,"inheritedstate":1},{"filter":"emoticon","localstate":0,"inheritedstate":1},{"filter":"urltolink","localstate":0,"inheritedstate":1},{"filter":"mediaplugin","localstate":0,"inheritedstate":1}],"courseformatoptions":[{"name":"hiddensections","value":1},{"name":"coursedisplay","value":0}]}],"warnings":[]}
+
