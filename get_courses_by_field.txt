@@ -1,0 +1,2 @@
+curl --location 'http://127.0.0.1/webservice/rest/server.php' --form 'wstoken="33018989fc4fba6ed3ed8eb4c16d67ec"' --form 'moodlews
+restformat="json"' --form 'attemptid="3"' --form 'page="0"' --form 'wsfunction="mod_quiz_get_attempt_data"'
